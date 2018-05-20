@@ -12,7 +12,7 @@ def prime?(num)
   w = 2
 
   while i * i <= n
-    if n % i == 0
+    if num % i == 0
       false
     end 
     i += w
