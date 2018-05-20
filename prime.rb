@@ -4,5 +4,5 @@ def prime(num)
     false 
   elsif num <= 3
     true 
-  elsif 
+  elsif num % 2 == 0 || num % 3 == 0
 end 
