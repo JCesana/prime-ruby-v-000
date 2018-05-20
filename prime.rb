@@ -12,8 +12,9 @@ def prime(num)
   w = 2
 
   while i * i <= n
-    if n % i == 0:
+    if n % i == 0
       false
+    end 
     i += w
     w = 6 - w
   end 
